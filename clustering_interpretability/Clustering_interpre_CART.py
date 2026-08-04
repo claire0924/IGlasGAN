@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-EN  Fits a shallow class-balanced CART classifier to re-express a glass-composition clustering as a readable threshold rule, then quantifies the interpretability cost via SSE comparison.
+Fits a shallow class-balanced CART classifier to re-express a glass-composition clustering as a readable threshold rule, then quantifies the interpretability cost via SSE comparison.
 """
 
 from collections import defaultdict
