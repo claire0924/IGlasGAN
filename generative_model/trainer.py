@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Implements the WGAN-GP training loop with gradient penalty, a differentiable mass-closure composition penalty, and a differentiable one-sided (ReLU) property penalty on the four normalised properties: CTE lower bound 0.6527, Tst upper bound 0.1275, E upper bound 0.2513, Density lower bound 0.4934; only out-of-bound samples are penalised and all penalties back-propagate into the generator.
+Implements the WGAN-GP training loop with gradient penalty, a differentiable mass-closure composition penalty, and a differentiable one-sided (ReLU) property penalty on the four normalised properties; only out-of-bound samples are penalised and all penalties back-propagate into the generator.
 
-实现带梯度惩罚的 WGAN-GP 训练循环，含可微的组分总量闭合惩罚，以及可微的单侧（ReLU）性能惩罚，作用于四项归一化性能：CTE 下界 0.6527、Tst 上界 0.1275、E 上界 0.2513、密度 下界 0.4934；仅越界样本被惩罚，所有惩罚项均将梯度回传到生成器。
 """
 
 import argparse
